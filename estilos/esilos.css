@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@1,300;1,500&family=Teko:wght@500&family=Ubuntu+Mono&display=swap');
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #a5f7df;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.div-main{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 4px #adababd1;
+}
+
+#div-imagen{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#details{
+    padding: 0px 15px;
+}
+
+#details h1{
+    margin: 10px 0px 0px 0px ;
+}
+
+.price{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.price h2{
+    font-size: 30px;
+}
+
+.price h3{
+    font-size: 20px;
+    text-decoration: line-through;
+    padding-top: 10px;
+    color: #99e2b4;
+}
+
+.price p{
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #757d8b;
+}
+
+.button-size h5{
+    color: #757d8b;
+    margin: 0px 0px 8px 0px;
+}
+
+.button-size button{
+    width: 39px;
+    height: 39px;
+    background-color: #f5f3f4;
+    border: 1px black ;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #d3d3d3d1;
+}
+
+.button-size button:hover{
+    background-color: #78c6a3;
+    cursor: pointer;
+}
+
+.description{
+    color: #757d8b;
+    font-weight: bold;
+}
+
+.payment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.quantity{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.quantity button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: #78c6a3;
+    color: white;
+    font-size: 30px;
+}
+
+.quantity button:hover{
+    cursor: pointer;
+}
+
+.quantity p{
+    text-align: center;
+    margin: 10px;
+}
+
+.pay{
+    border-radius: 45%;
+    background-color: #006466;
+    color: white;
+}
+
+.pay:hover{
+    background-color: #00646691;
+    cursor: pointer;
+}
